@@ -1,0 +1,370 @@
+body {
+    font-family: Oswald;
+}
+.dnone{
+    display: none;
+}
+.m4 {
+    margin: 0 4rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+.form-thanh-toan{
+    width: 100%;
+}
+.modal-user ul li a{
+    color: #000 !important;
+}
+.dflex {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    height: unset !important;
+}
+
+.main-nav .login {
+    color: #000;
+}
+
+.tapus-pay {
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 0;
+    padding: 0 2rem;
+}
+
+input {
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.full-wrapper .nav-logo-wrap>i, .desktop-nav a, .desktop-nav a i {
+    color: #000;
+}
+
+.tapus-pay-left {
+    margin-right: 9rem;
+    padding: 0;
+}
+
+.tapus-pay-left h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.pay-left-input input {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    color: #a3a3a3;
+}
+
+.pay-left-input-address input {
+    width: 31.5%;
+}
+
+.pay-left-input-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tapus-pay-left ul {
+    padding: 0;
+    width: 100%;
+}
+
+.tapus-pay-left ul li {
+    list-style: none;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 2rem;
+
+}
+
+.tapus-pay-left ul li input {
+    margin-right: 3rem;
+    margin-top: .5rem;
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.pay-check {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.pay-check p {
+    margin: 0;
+}
+
+.pay-check img {
+    width: 3%;
+    margin-left: 1rem;
+    float: left;
+}
+
+.tapus-pay-right {
+    background-color: #EFEFEF;
+    border-radius: .5rem;
+    padding: 4rem;
+    height: fit-content;
+}
+
+.tapus-pay-product {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 1em;
+}
+
+.tapus-pay-product img {
+    width: 40%;
+    margin-right: 3rem;
+}
+
+.tapus-pay-product-info p {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.product-number {
+    width: 100%;
+    justify-content: center;
+}
+
+.product-number span {
+    font-size: 30px;
+}
+
+.product-number p {
+    border: 1px solid #707070;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    background-color: #fff;
+    margin: 0 2rem;
+    font-size: 15px;
+}
+
+.tapus-pay-input {
+    margin: 6rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tapus-pay-input input {
+    width: 63%;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+}
+
+.tapus-pay-input button {
+    width: 30%;
+    padding: .9rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #D3D3D3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.tapus-pay-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tapus-pay-price p {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.tapus-pay-btn {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tapus-pay-btn button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.tapus-pay-btn a {
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.tapus-paypal {
+    background-color: #F8F7F7;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.paypal {
+    display: none;
+}
+
+.tapus-paypal-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.tapus-paypal img {
+    width: 80px;
+    height: 80px;
+}
+
+.modal-save-thanh-toan .show-message{
+    height: 35rem !important;
+}
+.modal-save-thanh-toan .show-message h2{
+    margin:4rem 0 0 0;
+}
+.modal-save-thanh-toan .show-message p{
+    font-size: 2rem !important;
+    margin: 0;
+}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 480px) {
+    .container-fluid {
+        margin: 0;
+    }
+
+    .tapus-pay-left {
+        margin: 0;
+    }
+
+    .tapus-pay-left h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .pay-left-input-address {
+        flex-direction: column;
+    }
+
+    .pay-left-input-address input {
+        width: 100%;
+    }
+
+    .pay-left-input input {
+        padding: .5rem 1rem;
+        font-size: 16px;
+    }
+
+    .tapus-pay-left ul li {
+        margin-bottom: .8rem;
+    }
+
+    .tapus-pay-left ul li input {
+        margin-right: 1rem;
+    }
+
+    .tapus-paypal {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .tapus-paypal img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .tapus-paypal-info p {
+        font-size: 12px;
+    }
+
+    .tapus-pay-right {
+        padding: 2rem;
+    }
+
+    .pay-check p {
+        font-size: 14px;
+    }
+
+    .tapus-pay-product {
+        flex-direction: column;
+    }
+
+    .tapus-pay-product img {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .tapus-pay-product-info p {
+        font-size: 16px;
+    }
+
+    .product-number span {
+        font-size: 25px;
+    }
+
+    .tapus-pay-input {
+        margin: 3rem 0;
+
+    }
+    .tapus-pay-input input{
+        padding: 0.5rem 1rem;
+        font-size: 16px;
+    }
+    .tapus-pay-input button{
+        width: 9rem;
+        font-size: 14px;
+    }
+    .tapus-pay-price p{
+        font-size: 25px;
+        margin: 2rem 0;
+    }
+    .tapus-pay-btn button{
+        font-size: 20px;
+        padding: .5rem 0;
+    }
+    .tapus-pay-btn a{
+        font-size: 14px;
+    }
+    .modal-save-thanh-toan .show-message {
+        height: 20rem !important;
+        border-radius: 6rem;
+    }
+    .modal-save-thanh-toan .show-message h2 {
+        margin: 1rem 0 0 0;
+        font-size: 1.3rem;
+    }
+    .modal-save-thanh-toan .show-message p {
+        font-size: 1rem !important;
+    }
+}

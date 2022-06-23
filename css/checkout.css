@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+.row1{
+    margin-top: 50px;
+}
+.logo {
+    text-decoration: none;
+    margin-left: 5%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.dangnhap {
+    text-decoration: none;
+    float: right;
+    margin-right: 5%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 150px;
+}
+
+.thongtin{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+
+color: #000000;
+
+}
+
+input[type="text"]{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: #A3A3A3 1px solid;
+    border-radius: 5px;
+    height: 53px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 41px;
+    color: #A3A3A3;
+
+}
+#name, #email, #phone, #address{
+    width: 812px;
+}
+#tinhthanh, #quanhuyen, #phuongxa{
+    width: 260px;
+    margin-right: 16px;
+}
+
+.group1{
+    display: flex;
+    flex-direction: row;
+}
+
+.title2{
+    margin-top: 100px;
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+
+color: #000000;
+}
+
+.radio-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radio-group p{
+    margin-left: 15px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 34px;
+    color: #000000;
+}
+
+input[type="radio"]{
+    width: 21px;
+    height: 21px;
+}
+
+.banggia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%
+}
+
+.banggia-nen{
+    width: 674px;
+    height: 663px;
+    background: #EFEFEF;
+    padding: 50px;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-info-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#quantity{
+    width:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#up, #down{
+    font-size: 40px;
+    margin: 10px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.voucher{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 578px;
+}
+
+#voucher{
+    width: 424px;
+    margin: 0 10px 0 0;
+}
+
+#applyVoucher{
+    background: #D3D3D3;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    height: 53px;
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+cursor: pointer;
+color: #000000;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.text1{
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 44px;
+
+color: #000000;
+
+}
+
+.text2{
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 44px;
+
+color: #000000;
+
+}
+
+.feeShip{
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 44px;
+color: #000000;
+margin-left:450px
+}
+
+.total{
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 44px;
+
+color: #000000;
+margin-left:467px
+}
+
+#dathang{
+    margin-top:20px;
+    width: 578px;
+    height: 53px;
+    background: #000000;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 37px;
+    /* identical to box height */
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}

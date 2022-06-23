@@ -1,0 +1,332 @@
+.p-r-5 {
+    padding-right: 5rem;
+}
+
+.p-l-5 {
+    padding-left: 5rem;
+}
+
+.tapus-info-content {
+    margin-top: 7rem;
+}
+
+.tapus-info {
+    padding: 0 100px;
+}
+
+.item-img {
+    height: 30rem;
+    overflow: hidden;
+}
+
+.item-img img {
+    width: 100%;
+}
+
+.item-info {
+    float: right;
+}
+
+.item-info h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Oswald;
+    font-size: 45px;
+    margin: 0;
+}
+
+.item-info p {
+    font-weight: 400;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+.tapus-text-title {
+    text-align: center;
+    font-weight: 700;
+    font-family: Oswald;
+    font-size: 50px;
+    margin-top: 10rem;
+}
+
+.tapus-team-img {
+    height: 50rem;
+    overflow: hidden;
+}
+
+.tapus-team-img img {
+    border-radius: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.tapus-team-info h3 {
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.tapus-team-info p {
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.values-item {
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+.values-item img {
+    height: 12rem;
+    margin-bottom: 5rem;
+}
+
+.values-item h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Oswald;
+    margin: 0;
+}
+
+.values-item p {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Oswald;
+    text-align: center;
+    height: 13rem;
+    margin-top: 2rem;
+}
+
+.tapus-mission {
+    margin: 10rem 0;
+}
+
+.tapus-mission-info h3 {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: Oswald;
+    margin-top: 10rem;
+}
+
+.tapus-mission-info p {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Oswald;
+    line-height: 2;
+}
+
+.tapus-mission-info h4 {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Oswald;
+    text-align: center;
+}
+
+.tapus-mission-img {
+    background-color: #000;
+    border-radius: 2rem;
+    float: right;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tapus-mission-img img {
+    width: 50%;
+}
+
+.tapus-mission-img p {
+    font-family: Oswald;
+    color: #ccc;
+    font-size: 30px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1366px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {
+    .item-img {
+        height: 20rem;
+    }
+    .item-info h2 {
+        font-size: 35px;
+    }
+    .item-info p {
+        font-size: 15px;
+    }
+    .tapus-team-img {
+        height: 35rem;
+    }
+    .tapus-team-info h3 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    .tapus-team-info p {
+        font-size: 13px;
+    }
+    .values-item{
+        height: 50rem;
+    }
+    .values-item img {
+        height: 9rem;
+        margin-bottom: 3rem;
+    }
+    .values-item h3 {
+        font-size: 25px;
+    }
+    .values-item p{
+        font-size: 15px;
+    }
+    .tapus-mission-info h3{
+        margin-top: 0;
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+    .tapus-mission-info h4 {
+        font-size: 30px;
+    }
+    .tapus-mission-img{
+        padding: 0;
+        height: 40rem;
+    }
+    .tapus-mission-img img {
+        width: 35%;
+    }
+    .tapus-mission-img p {
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .item-img {
+        height: 25rem;
+        padding: 0;
+    }
+    .item-info {
+        padding: 0;
+        margin-top: 3rem;
+    }
+    .tapus-team-img {
+        height: 50rem;
+        padding: 0;
+    }
+    .tapus-team-info {
+        padding: 0;
+        margin-top: 3rem;
+    }
+    .values-item {
+        margin-bottom: 3rem;
+    }
+    .tapus-mission-info {
+        padding: 0;
+        text-align: center;
+    }
+    .tapus-mission-img {
+        padding: 0;
+    }
+    .tapus-mission-img img {
+        width: 40%;
+    }
+    .tapus-mission-img p {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tapus-info {
+        padding: 0 2rem;
+    }
+    .item-img {
+        height: 17rem;
+        padding: 0 2rem;
+    }
+    .item-info {
+        padding: 0 2rem;
+    }
+    .item-info h2 {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    .item-info p {
+        font-size: 16px;
+    }
+    .tapus-text-title {
+        font-size: 40px;
+    }
+    .tapus-team-img {
+        height: 25rem;
+        padding:0 2rem;
+    }
+    .tapus-team-info {
+        padding-left: 2rem;
+    }
+    .tapus-team-info h3 {
+        font-size: 25px;
+        margin-top: 4rem;
+    }
+    .tapus-team-info p {
+        font-size: 15px;
+    }
+    .values-item {
+        margin-bottom: 3rem;
+    }
+    .values-item img {
+        height: 9rem;
+    }
+    .values-item p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .values-item h3 {
+        font-size: 25px;
+    }
+    .tapus-mission-info {
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .tapus-mission-info h3 {
+        font-size: 40px;
+        margin: 0 0 2rem;
+    }
+    .tapus-mission-info p {
+        font-size: 17px;
+    }
+    .tapus-mission-info h4 {
+        font-size: 25px;
+    }
+    .tapus-mission-img {
+        height: 30rem;
+        padding-left: 0;
+        margin: 0 2rem;
+    }
+    .tapus-mission-img img {
+        width: 35%;
+    }
+    .tapus-mission-img p {
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+}

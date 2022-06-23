@@ -1,0 +1,9 @@
+
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://localhost/DevSoft-TapUs/$1 [R,L]
+RewriteRule ^profile/([a-zA-Z0-9_-]+)$ profile.php?url=$1
+RewriteRule ^profile/([a-zA-Z0-9_-]+)/$ profile.php?url=$1
+RewriteRule ^user/([a-zA-Z0-9_-]+)$ user/user-trang-ca-nhan.php?url=$1
+#RewriteRule ^([a-zA-Z0-9_-]+)$ sanphamTapUs.php?id=$1

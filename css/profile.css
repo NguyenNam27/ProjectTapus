@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+.row1{
+    margin-top: 50px;
+}
+.logo {
+    text-decoration: none;
+    margin-left: 5%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 64px;
+    color: #000000;
+}
+
+
+
+.dangnhap {
+    text-decoration: none;
+    float: right;
+    margin-right: 5%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.title {
+    text-align: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 63.5px;
+    line-height: 94px;
+    color: #000000;
+}
+
+.chinhsua{
+    text-align: center;
+}
+
+.chinhsuabtn{
+    margin-top: 30px;
+    width: 250px;
+    height: 54px;
+    border: black 2px solid;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+	padding: 5px 15px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.row2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 579px;
+    padding: 0 10%;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.avatar{
+    width: 536px;
+    height: 579px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.name{
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+
+color: #000000;
+}
+
+.gioithieu{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+width: 90%;
+height: 200px;
+color: #A3A3A3;
+}
+
+.social-box{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 558px;
+    height: 54px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+
+}
+
+.social-box img{
+    margin-right: 10px;
+}
+
+.addlink{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+@media only screen and (max-width: 1800px) {
+    .row2{
+        height: 479px;
+    }
+    .gioithieu{
+        width: 80%;
+        height: 150px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    .row2{
+        height: 479px;
+    }
+    .gioithieu{
+        width: 80%;
+        height: 130px;
+    }
+    
+    
+    .avatar{
+        width: 376px;
+        height: 379px;
+    }
+    .social-box{
+        width: 206px;
+        height: 34px;
+        font-size: 10px;
+        padding-top: 2px;
+    }
+    .social-box img{
+        width: 18px;
+        height: 18px;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .addlink{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .row2{
+        height: 479px;
+    }
+    .gioithieu{
+        width: 80%;
+        height: 130px;
+    }
+    
+    .social-box{
+        padding-left: 25%;
+    }
+    
+    .avatar{
+        width: 376px;
+        height: 379px;
+    }
+    .social-box{
+        width: 276px;
+        height: 34px;
+        font-size: 10px;
+        padding-top: 2px;
+        padding-left: 19%;
+    }
+    .social-box img{
+        width: 18px;
+        height: 18px;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .addlink{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .row2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .social-box{
+        width: 276px;
+        height: 54px;
+        font-size: 21px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+    .social-box img{
+        width: 24px;
+        height: 24px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .addlink{
+        font-size: 21px;
+    }
+    .title{
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .row2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .social-box{
+        width: 276px;
+        height: 54px;
+        font-size: 21px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+    .social-box img{
+        width: 24px;
+        height: 24px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .addlink{
+        font-size: 21px;
+    }
+    .title{
+        margin-top: 100px;
+        font-size: 42px;
+    }
+    .avatar{
+        width: 250px;
+        height: 250px;
+    }
+
+    .gioithieu{
+        height: 500px;
+    }
+}
+
+
+.avatar img{
+    width: 100%;
+    height: 100%;
+	border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+}

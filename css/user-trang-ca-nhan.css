@@ -1,0 +1,297 @@
+body {
+    font-family: Oswald;
+}
+
+footer {
+    padding: 6rem !important;
+}
+.cart-white{
+    display: none;
+}
+.dnone{
+    display: none;
+}
+.container-fluid {
+    padding: 0;
+}
+
+.full-wrapper .nav-logo-wrap>i {
+    color: #000;
+}
+
+.desktop-nav .login {
+    color: #000;
+}
+
+.footer-logo {
+    width: 16%;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.footer-logo p {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+body{
+    background-image: url("../images/full-width-images/banner-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.user-main {
+    width: 100%;
+    padding: 160px 0;
+    height: 100%;
+}
+.user-main-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+}
+.user-info {
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.user-info-link-item-img{
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+}
+.user-info-img {
+    height: 17rem;
+    width: 17rem;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-info-img img {
+    width: 100%;
+}
+
+.user-info h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.user-info p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.user-info-intro {
+    border: 1px solid #242424;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.user-info-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: 3px solid #242424;
+    padding: 1rem 2rem;
+    width: 47%;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.user-info-button a img {
+    width: 13%;
+}
+
+.user-info-button a p {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 2rem;
+}
+
+.user-info-link {
+    width: 100%;
+}
+
+.user-info-link a {
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 5rem;
+    padding: 5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.user-info-link a img {
+    width: 100%;
+}
+
+.user-info-link a p {
+    color: #000;
+    font-size: 25px;
+    /*padding: 0 11rem;*/
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+.user-main-row-item{
+    background-image: url(../images/full-width-images/banner-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    position: relative;
+    margin: 1.5rem 0;
+}
+.user-main-row-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2.5rem 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {
+    .user-info {
+        width: 50%;
+    }
+    .footer-logo {
+        width: 22%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {}
+
+
+
+@media only screen and (max-width: 768px) {
+    .user-info {
+        width: 70%;
+    }
+
+    .user-info-button a {
+        padding: 1.5rem 2rem;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    .footer-logo p {
+        font-size: 21px;
+    }
+
+    .footer {
+        padding: 80px 30px !important;
+    }
+    .user-info-link-item-img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .modal-user {
+        top: 3rem;
+        left: unset;
+        right: 0;
+    }
+
+    .user-main {
+        padding: 11rem 2rem;
+        ;
+    }
+
+    .user-info {
+        width: 100%;
+    }
+
+    .user-info-img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .user-info h2 {
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+
+    .user-info p {
+        font-size: 20px;
+    }
+
+    .user-info-intro {
+        padding: 1rem;
+    }
+
+    .user-info-button a {
+        padding: .5rem 1rem;
+    }
+
+    .user-info-button a p {
+        padding: 0 1rem;
+    }
+
+    .user-info-link a {
+        padding: 3rem;
+        border-radius: 2rem;
+    }
+
+    .user-info-link a p {
+        padding: 0 5rem;
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 0 !important;
+    }
+
+    .footer-logo {
+        margin-top: 2rem;
+        width: 25%;
+    }
+
+    .footer-logo p {
+        font-size: 10px;
+    }
+    .user-info-link-item-img {
+        width: 3rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,243 @@
+body {
+    font-family: Oswald;
+}
+
+.p-16 {
+    padding: 16rem 10rem 5rem;
+}
+
+.bg-main {
+    background-color: #EFEFEF;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.statistical-info {
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 0;
+    width: 95%;
+}
+
+.statistical-info-title {
+    border-bottom: 2rem solid #000;
+}
+
+.statistical-info-title p {
+    font-size: 25px;
+    margin: 2rem;
+    font-weight: 700;
+}
+
+.statistical-info-content-title h3 {
+    margin: 1.5rem 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.statistical-info-content-box {
+    width: 75%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.content-box-item {
+    width: 45%;
+    border: 1px solid #000;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-box-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content-box-item span {
+    font-size: 18px;
+}
+
+.statistical-info-btn button {
+    background-color: #000;
+    border-radius: 2.5rem;
+    width: 20%;
+    color: #ffff;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+}
+
+.statistical-info-content-analysis h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.analysis-item {
+    border: 3px solid;
+    border-radius: 3rem;
+    width: 60%;
+    padding: 1.5rem 2rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.analysis-item-img {
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.analysis-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.analysis-item span {
+    font-size: 18px;
+}
+
+.statistical-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.statistical-footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.statistical-footer a {
+    font-size: 20px;
+    color: #699AF5;
+
+}
+
+.statistical-footer button {
+    background-color: #000;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    width: 15%;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {
+    .statistical-info {
+        width: 100%;
+    }
+    .statistical-info-content-box {
+        width: 85%;
+    }
+
+    .statistical-footer button {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .statistical-info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .p-16 {
+        padding: 10rem 5rem 5rem ;
+    }
+
+    .statistical-img {
+        margin-bottom: 2rem;
+    }
+
+    .statistical-info {
+        width: 100%;
+    }
+
+    .statistical-info-title p {
+        font-size: 18px;
+    }
+
+    .statistical-info-content-title h3 {
+        font-size: 23px;
+    }
+
+    .content-box-list-item {
+        flex-direction: column;
+    }
+
+    .content-box-item {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .content-box-item p {
+        font-size: 16px;
+    }
+
+    .content-box-item span {
+        font-size: 16px;
+    }
+
+    .statistical-info-btn button {
+        width: 40%;
+        margin-top: 1rem;
+    }
+
+    .statistical-info-content-analysis h3 {
+        font-size: 23px;
+    }
+
+    .analysis-item {
+        width: 78%;
+        padding: 1rem 2rem;
+    }
+
+    .analysis-item p {
+        font-size: 12px;
+    }
+
+    .analysis-item-img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .analysis-item-img img {
+        vertical-align: unset;
+    }
+
+    .analysis-item span {
+        font-size: 14px;
+    }
+
+    .statistical-footer p {
+        font-size: 10px;
+    }
+
+    .statistical-footer a {
+        font-size: 10px;
+    }
+
+    .statistical-footer button {
+        font-size: 7px;
+        margin-left: 1rem;
+    }
+
+}
